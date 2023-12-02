@@ -37,6 +37,6 @@ app.use(authentication)
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Server setup
-app.listen((3000), () => {
+app.listen((5500), () => {
 	console.log("Server is Running");
 })
